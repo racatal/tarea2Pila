@@ -25,5 +25,18 @@ public class TrastesConObjetos {
        System.out.println("PILA ANTES DEL POP");
        miPila.listar();
        // Fin parte Jean Guzman
+       
+       //Incio parte Aniffer Chacon
+       Cola cola = new Cola();
+        cola.encola(new Nodo1(new Persona("ani", "12345", false)));
+        cola.encola(new Nodo1 (new Persona("kalet", "78564", false)));
+        cola.encola(new Nodo1 (new Persona ("vale", "99874", true)));
+        cola.encola(new Nodo1 (new Persona ("jean", "6764", true)));
+        cola.encola(new Nodo1 (new Persona ("leo", "99874", false)));
+        
+        cola.imprimir();
+        //Fin parte Aniffer Chacon
     }
 }
+
+
