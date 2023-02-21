@@ -11,7 +11,9 @@ package trastesconobjetos;
 public class TrastesConObjetos {
 
     public static void main(String[] args) {
-       Pila miPila = new Pila();
+       // Inicio parte Jean Guzman
+        
+        Pila miPila = new Pila();
 
             miPila.push(new Traste(new Plato(new Cubiertos(1), 1), null));
             miPila.push(new Traste(new Plato(new Cubiertos(2), 2), null));
@@ -22,5 +24,6 @@ public class TrastesConObjetos {
         
        System.out.println("PILA ANTES DEL POP");
        miPila.listar();
+       // Fin parte Jean Guzman
     }
 }
